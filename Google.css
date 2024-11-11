@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./chrome\ background\ .png);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    width: 20%;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+}
+
+.top .tag:hover {
+    text-decoration: underline 1px solid white;
+}
+
+.go {
+    width: 350px;
+    margin-left: 250px;
+}
+
+.log {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 470px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: unset;
+}
+
+.input {
+    border: none;
+    border-radius: 20px;
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.er {
+    margin-left: -20px;
+    width: 30px;
+}
+
+.fo {
+    background-color: white;
+    color: black;
+    width: 550px;
+    padding-left: auto;
+    margin-left: -32px;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    display: none;
+}
+
+.inpot:focus-within .fo {
+    display: block;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    background-color: rgb(241, 243, 244);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.fa-clock-rotate-left {
+    margin-left: -110px;
+}
+
+.gat {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.tag {
+    width: 100px;
+    /* position: relative; */
+}
+
+.img {
+    width: 15px;
+}
+
+.tag:hover {
+    background-color: rgba(232, 232, 233, 0.151);
+    background-blend-mode: lighten;
+    border-radius: 5px;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+.icons p {
+    color: white;
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.icono {
+    background-color: rgb(241, 243, 244);
+    color: black;
+    padding: 3px;
+    border-radius: 25px;
+    margin-left: 30px;
+    width: 40px;
+}
+
+.ico {
+    width: 150px;
+    margin-left: -20px;
+}
+
+.fa-ellipsis-vertical {
+    position: absolute;
+    top: 0;
+    margin-left: 7px;
+    color: white;
+    visibility: hidden;
+}
+
+.tag button {
+    background: none;
+    border: none;
+}
+
+.tag:hover .fa-ellipsis-vertical {
+    display: block;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.grid{
+    color: white;
+}
+.sec-btn{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.first-btn{
+    border: none;
+    background-color: transparent;
+}
+.exp{
+    color: white;
+}
